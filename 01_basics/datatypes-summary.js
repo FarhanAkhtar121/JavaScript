@@ -35,3 +35,33 @@ const myFunction = function(){
 
 console.log(myObj)
 console.log(myFunction)
+
+/****************************************************Memory in JS ****************************************** */
+
+//Stack Memory - All primitive DataType
+
+//Heap Memory - All Non Primitive DataType
+
+let myYoutubename ="techwiz"
+
+let anotherName = myYoutubename
+anotherName = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anotherName);
+
+
+//heap memory
+
+let user1 = {
+    email : "someone@gmail.com",
+    upi_id : "someoneOkhdfc@bank"
+
+}
+
+let user2 = user1
+
+user2.email = "newone@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email)
