@@ -28,3 +28,29 @@ let num1 = 33
 let stringNum1 = String(num1)
 console.log(typeof stringNum1);
 console.log(stringNum1);
+
+/*******************************Operations***************************/
+
+value = 33
+negValue = -value
+
+console.log(negValue);
+
+let str1 = "Hello "
+let str2 = "Farhan"
+
+let str3 = str1 + str2
+
+console.log(str3);      
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+let gameCounter =300;
+gameCounter++;   // Postfix
+// ++ gameCounter  Prefix
+console.log(gameCounter);
+
+
